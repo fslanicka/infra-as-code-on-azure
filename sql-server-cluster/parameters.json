@@ -21,7 +21,7 @@
             "value": "Standard_DS2_v2"
         },
         "domainName": {
-            "value": "geewa.cz"
+            "value": "flsdomain"
         },
         "sqlServerServiceAccountUserName": {
             "value": "sqlservice"
@@ -30,7 +30,7 @@
             "value": null
         },
         "sqlStorageAccountName": {
-            "value": "geewastorage"
+            "value": "fslstorage"
         },
         "sqlStorageAccountType": {
             "value": "Premium_LRS"
@@ -45,13 +45,13 @@
             "value": "2"
         },
         "sqlAOAGName": {
-            "value": "geewa-ag"
+            "value": "fsl-ag"
         },
         "sqlAOListenerPort": {
             "value": "1433"
         },
         "sqlAOListenerName": {
-            "value": "geewa-listener"
+            "value": "fsl-listener"
         },
         "sqlServerVersion": {
             "value": "SQL2017-WS2016-ENT"

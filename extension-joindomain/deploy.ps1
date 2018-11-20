@@ -1,10 +1,10 @@
 # Create Resource Group
-$resourceGroupName = "extension-joindomain"
+$resourceGroupName = "geewa-sql-cluster"
 New-AzureRmResourceGroup -ResourceGroupName $resourceGroupName `
 -Location westeurope
 
 # Prepare storage account and container
-$storageAccountName = "mujextensionstordomain"
+$storageAccountName = "geewastoredomain"
 New-AzureRmStorageAccount -ResourceGroupName $resourceGroupName `
   -Name $storageAccountName `
   -Location westeurope `
@@ -28,4 +28,4 @@ New-AzureRmResourceGroupDeployment -ResourceGroupName $resourceGroupName `
 -TemplateParameterFile joinedvm.parameters.json
 
 # Destroy resource group
-Remove-AzureRmResourceGroup -Name $resourceGroupName -Force -AsJob
+# Remove-AzureRmResourceGroup -Name $resourceGroupName -Force -AsJob
